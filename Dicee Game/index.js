@@ -5,7 +5,7 @@ var img = "dice" + num1 + ".png";
 
 var path = "images/" + img; 
 
-var image1 = document.querySelectorAll("img")[0];
+var image1 = document.querySelector(".img1");
 
 image1.setAttribute("src", path);
 
